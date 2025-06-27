@@ -1,0 +1,6 @@
+pure function:- on the basis of your input geive a output
+
+function double(number){
+  return (2*number)
+}
+
