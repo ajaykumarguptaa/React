@@ -35,6 +35,7 @@ import UpdateObject from "./Updating Object in  state/UpdateObject.jsx";
 import ArrayUpdate from "./Array update in react/ArrayUpdate.jsx";
 import ActionState from "./UseActionStatte/ActionState.jsx";
 import UseId from "./UseId Hook/UseId.jsx";
+import AppClone from "./ContextApi/AppClone.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -68,8 +69,8 @@ createRoot(document.getElementById("root")).render(
     {/* <UpdateObject/> */}
     {/* <ArrayUpdate/> */}
     {/* <ActionState/> */}
-    <UseId/>
-
+    {/* <UseId/> */}
+    <AppClone/>
     
 
   </StrictMode>
