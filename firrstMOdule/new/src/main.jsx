@@ -32,6 +32,9 @@ import DirectUseTransition from "./UseTransitionform/DirectUseTransition.jsx";
 import DriveState from "./DriveState/DriveState.jsx";
 import AppLift from "./Lifting State Up In React/AppLift.jsx";
 import UpdateObject from "./Updating Object in  state/UpdateObject.jsx";
+import ArrayUpdate from "./Array update in react/ArrayUpdate.jsx";
+import ActionState from "./UseActionStatte/ActionState.jsx";
+import UseId from "./UseId Hook/UseId.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -62,7 +65,10 @@ createRoot(document.getElementById("root")).render(
     {/* <DirectUseTransition/> */}
     {/* <DriveState/> */}
     {/* <AppLift/> */}
-    <UpdateObject/>
+    {/* <UpdateObject/> */}
+    {/* <ArrayUpdate/> */}
+    {/* <ActionState/> */}
+    <UseId/>
 
     
 
