@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
 import { Img } from './components/Img'
 import FirstComp from './components/FirstComp'
 import { NewExport } from './components/NewExport'
