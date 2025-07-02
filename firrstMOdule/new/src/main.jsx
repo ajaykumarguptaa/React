@@ -36,6 +36,9 @@ import ArrayUpdate from "./Array update in react/ArrayUpdate.jsx";
 import ActionState from "./UseActionStatte/ActionState.jsx";
 import UseId from "./UseId Hook/UseId.jsx";
 import AppClone from "./ContextApi/AppClone.jsx";
+import Hello from "./Project/test/Hello.jsx";
+import ReactRout from "./React-Router/ReactRout.jsx";
+import MainPage from "./React-Router/NestedRout/MainPage.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -70,8 +73,9 @@ createRoot(document.getElementById("root")).render(
     {/* <ArrayUpdate/> */}
     {/* <ActionState/> */}
     {/* <UseId/> */}
-    <AppClone/>
-    
+    {/* <AppClone/> */}
+    {/* <ReactRout/> */}
+    <MainPage/>
 
   </StrictMode>
 );
